@@ -12,19 +12,33 @@
 html{
     font-size: 10px;
     font-family: 'Mooli', sans-serif;
-    background-color: aquamarine;
+    background:url(img13.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:rgba(0 , 0,0,0.5) ;
+}
+a{
+    color: white;
+    transition: .5s;
+}
+a:hover{
+    color: aliceblue;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+
 }
 .name{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    background-color: aliceblue;
+    color: white;
 }
 .main_div{
-    height: 90vh;
-    width: 100;
-    background-color: aquamarine;
     display: flex;
     justify-content: center;
     margin-top:1rem;
@@ -34,17 +48,19 @@ html{
     height: 55rem;
     background-color: azure;
     border-radius: 2rem;
-    box-shadow: 0 1rem 4rem 0.5rem rgba(0,0,0,0.5);
+    box-shadow: 0 1rem 4rem 0.5rem rgba(211, 222, 231, 0.5);
     padding: 2.5rem;
     text-align: center;
+    background-blend-mode: overlay;
+    background-color:rgba(207, 207, 198, 0.123) ;
+    color: white;
 }
 .music_container #title{
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     word-spacing: 0.5rem;
-    color:black;
     margin: 2rem 0 0.5rem 0;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 500;
     text-shadow: 0 0.4rem 0.6rem rgba(0,0,0,0.3);
 }
@@ -52,7 +68,6 @@ html{
     text-transform: capitalize;
     letter-spacing: 0.3rem;
     word-spacing: 0.5rem;
-    color:black;
     margin: 0.5rem 0 0.5rem 0;
     font-size: 1.5rem;
     font-weight: 500;
@@ -68,13 +83,13 @@ img{
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 1.2rem 3rem 0.6rem rgba(0,0,0,0.3);
+    box-shadow: 0 1rem 4rem 0.5rem rgba(211, 222, 231, 0.5);
 }
 .music_controls .fas{
-    color: black;
+    color: white;
     font-size: 2rem;
     cursor:pointer;
-    filter: drop-shadow(1.2rem 1.3rem 0.5rem rgba(0,0,0,0.4));
+    filter: drop-shadow(0.5rem 0.3rem 0.5rem rgba(211, 222, 231, 0.5));
 }
 .music_controls{
     display: flex;
@@ -88,8 +103,8 @@ img{
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    background-color: aquamarine;
-    color:black;
+    background-color: rgb(33,39,46);
+    color:whitesmoke;
     font-size:1.5rem;
     display: flex;
     justify-content: center;
@@ -98,10 +113,10 @@ img{
 .music_controls .fa-play:hover{
     background-color: aliceblue;
     color:aqua;
-    box-shadow: 0 1.2rem 3rem 0.6rem rgba(0,0,0,0.3);
+    box-shadow: 0 1.2rem 3rem 0.6rem rgba(134, 15, 15, 0.3);
 }
 .music_controls .fas:hover{
-    color: aqua;
+    color:coral;
 }
 
 /*---------------------------------------------------------------------------------*/
@@ -119,10 +134,6 @@ img{
     border-radius: 4rem;
     position: relative;
     margin-top: 0.5rem;
-    /* transition: width 1s linear;
-    -moz-transition: width 1s linear;
-    -o-transition: width 1s linear;
-    -webkit-transition: width 1s linear; */
     cursor: pointer;
     appearance: none;
 }
@@ -132,13 +143,9 @@ img{
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: black;
+    background-color: white;
     border-radius: 4rem;
     margin-top: 0.5rem;
-    /* transition: width 1s linear;
-    -moz-transition: width 1s linear;
-    -o-transition: width 1s linear;
-    -webkit-transition: width 1s linear; */
     cursor: pointer;
     appearance: none;
     margin-top: -0.0rem;
