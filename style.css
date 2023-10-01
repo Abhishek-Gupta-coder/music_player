@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Mooli&display=swap');
-@media screen and (min-width: 80rem) {
-    .main_div {
-      margin: 1em 2em;
-    }
-  }
 *,*::before,*::after{
     margin: 0;
     padding: 0%;
