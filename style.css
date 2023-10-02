@@ -8,7 +8,7 @@ html{
     font-size: 10px;
     height: 100vh;
     font-family: 'Mooli', sans-serif;
-    background:url(./BG_Images/img13.jpg);
+    background:url(img13.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     background-color:rgba(0 , 0,0,0.5) ;
